@@ -18,8 +18,8 @@ cheat=true ruby play.rb
 
 ### Gameplay
 ```
-A B C D E F G H I J
-–––––––––––––––––––
+   A B C D E F G H I J
+   –––––––––––––––––––
 1 |. . . . . . d d . .| 1
 2 |. . . . . . . . . .| 2
 3 |. . . . . . . . . .| 3
@@ -30,8 +30,8 @@ A B C D E F G H I J
 8 |b . . s c . . . . .| 8
 9 |b . . . c . . . . .| 9
 10|b . . . c . . . . .| 10
-–––––––––––––––––––
-A B C D E F G H I J
+   –––––––––––––––––––
+   A B C D E F G H I J
 ```
 
 ### Requirements
