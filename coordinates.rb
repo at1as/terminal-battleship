@@ -4,11 +4,13 @@ module Coordinates
   def get_coords(position)
     coords = OpenStruct.new
     coords.x = (position - 1) % 10
-    coords.tap { |c| c.y = (position - 1) / 10 }
+    coords.y = (position - 1) / 10
+
+    coords
   end
 
   def alphanumeric_coords_to_numeric(letter_number)
-    letter, number = letter_number.strip.split('')
+    letter, number = letter_number.slice!(0), letter_number
 
     coords = OpenStruct.new
     coords.x = ('A'..'J').zip(0..9).to_h[letter]

@@ -21,4 +21,5 @@ class Play
   end
 end
 
-game = Play.new.run(cheat: true)
+cheat_mode_enabled = ENV['cheat'] || false
+game = Play.new.run(cheat: cheat_mode_enabled)
