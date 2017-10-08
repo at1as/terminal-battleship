@@ -10,10 +10,16 @@ $ cd terminal-battleship
 $ ruby play.rb
 ```
 
-Run with the following environment variable to see the solution
+Run with the CHEAT environment variable set to true to see the solution
 
 ```
-cheat=true ruby play.rb
+CHEAT=true ruby play.rb
+```
+
+Or withoutout for the standard game
+
+```
+ruby play.rb
 ```
 
 ### Gameplay
@@ -40,4 +46,5 @@ cheat=true ruby play.rb
 
 ### TODO
 
-* print board showing guesses without divulging ship locations
+* Tests
+* Play against the computer

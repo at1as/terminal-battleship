@@ -94,8 +94,8 @@ class Board
     @board[y][x] = marker.to_s
   end
 
-  def print_solution
-    print_board(@board)
+  def print_solution(hide_locations)
+    print_board(@board, hidden: hide_locations)
   end
 
   def hits_remaining
